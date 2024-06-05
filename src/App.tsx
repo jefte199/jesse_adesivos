@@ -19,7 +19,7 @@ import {
 function App() {
 
   const handleRedirect = () => {
-    const phoneNumber = '8897060098';
+    const phoneNumber = '88999759560';
     const url = `https://wa.me/${phoneNumber}`;
     window.location.href = url;
   };
