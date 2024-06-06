@@ -11,9 +11,9 @@ import {
   Divider,
   CardFooter,
   ButtonGroup,
-  Grid,
-  GridItem,
   Center,
+  Wrap,
+  WrapItem,
 } from '@chakra-ui/react'
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
 
-      <Center>
+      <Center paddingBottom={"20px"}>
         <Box maxW='32rem'>
           <Heading mb={4}>Jessé adesivos</Heading>
           <Text fontSize='xl'>
@@ -39,12 +39,12 @@ function App() {
         </Box>
       </Center>
 
-      <Grid templateColumns='repeat(3, 1fr)' gap={6}>
-        <GridItem>
+      <Wrap>
+        <WrapItem>
           <Card maxW='sm'>
             <CardBody>
               <Image
-                src='./src/assets/01.png'
+                src='src/assets/01.png'
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
@@ -67,13 +67,13 @@ function App() {
               </ButtonGroup>
             </CardFooter>
           </Card>
-        </GridItem>
+        </WrapItem>
 
-        <GridItem>
+        <WrapItem>
           <Card maxW='sm'>
             <CardBody>
               <Image
-                src='./src/assets/02.png'
+                src='src/assets/02.png'
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
@@ -96,13 +96,13 @@ function App() {
               </ButtonGroup>
             </CardFooter>
           </Card>
-        </GridItem>
+        </WrapItem>
 
-        <GridItem>
+        <WrapItem>
           <Card maxW='sm'>
             <CardBody>
               <Image
-                src='./src/assets/03.png'
+                src='src/assets/03.png'
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
@@ -125,9 +125,9 @@ function App() {
               </ButtonGroup>
             </CardFooter>
           </Card>
-        </GridItem>
-      </Grid>
-    </div>
+        </WrapItem>
+      </Wrap>
+    </div >
   )
 }
 
