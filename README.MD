@@ -16,13 +16,3 @@ Este é o repositório para o site da Loja de Envelopamentos em geral. O site é
 
 - **HTML5**: Estrutura da página.
 - **CSS3**: Estilização da página.
-
-## Estrutura do Projeto
-
-.
-├── index.html
-└── styles.css
-└── assets
-  └── img_orcamento_01.png
-  └── img_orcamento_02.png
-  └── img_orcamento_03.png
