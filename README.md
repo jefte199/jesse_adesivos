@@ -1,1 +1,0 @@
-# front jesse_adesivos
